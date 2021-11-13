@@ -1,1 +1,80 @@
-111
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="main.min.css">
+ <title>R&B</title>
+</head>
+<body>
+ <div class="wrapper">
+  <div class="container">
+    <div class="license__body">
+     <ul class="license__menu menu">
+       <li class="menu__item">
+        <label class="radio">
+          <input type="radio" name="option-radio" class="radio__elem">LICENSE PLAN #1
+        </label>
+        <div class="menu__item-price">
+          $<span class="price">13</span> per license
+        </div>
+       </li>
+       <li class="menu__item">
+        <label class="radio">
+          <input type="radio" name="option-radio" class="radio__elem">
+          LICENSE PLAN #2
+        </label>
+        <div class="menu__item-price">
+          $<span class="price">22</span> per license
+        </div>
+       </li>
+       <li class="menu__item">
+        <label class="radio">
+          <input type="radio" name="option-radio" class="radio__elem">
+          LICENSE PLAN #3
+        </label>
+        <div class="menu__item-price">
+          $<span class="price">34</span> per license
+        </div>
+       </li>
+     </ul>
+     <hr width=100% lign="center" color="Grey">
+     <div class="quantity__license">
+       <div class="quantity__license-text">Number of licenses:</div>
+       <select name="" id="select" class="license__number" >
+         <option   value="1" class="option">1</option>
+         <option value="2" class="option">2</option>
+         <option value="3" class="option">3</option>
+         <option value="4" class="option">4</option>
+         <option value="5" class="option">5</option>
+         <option value="6" class="option">6</option>
+         <option value="7" class="option">7</option>
+         <option value="8" class="option">8</option>
+         <option value="9" class="option">9</option>
+         <option value="10" class="option">10</option>
+       </select>
+     </div>
+     <hr width=100% lign="center" color="Grey">
+    </div>
+    <div class="license__total total">
+      <div class="total__price">TOTAL: 
+        <span class="total__span"></span>
+      </div>
+    </div>
+    <form>
+      <button type="submit" class="license__button button" formaction="https://www.w3docs.com">BUY NOW</button>
+    </form>
+   
+    <div class="license__selected">
+      Selected plan: # <span class="num"></span>
+    </div>
+  </div>
+  
+</div>
+
+
+
+<script src="main.min.js"></script>
+</body>
+</html>
