@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@font-face {
+  font-family: "Bebas Neue Serif Bold";
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  margin: 0 auto;
+  background-color: #f0f8ff;
+  
+  border: solid 6px #abcdef;
+  
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.license {
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  &__total {
+    margin-bottom: 15px;
+  }
+  &__button {
+    margin-bottom: 15px;
+  }
+  &__button {
+    width: 150px;
+    height: 40px;
+    padding: 5px 7px;
+    border-radius: 35px;
+    border: none;
+    background-color: green;
+    color: white; 
+    cursor: pointer;
+    margin-bottom: 45px;
+  }
+  &__selected{
+    color:  #00bfff;
+  }
+}
+.menu {
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 7px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+
+  &__elem {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  &__title {
+    font-family: "Bebas Neue Serif Bold";
+    font-size: 20px;
+  }
+}
+
+.quantity__license {
+  display: flex;
+  margin: 20px 0;
+
+  &-text {
+    margin-right: 10px;
+  }
+}
+
+select {
+  width: 50px;
+}
+
+.total__span {
+  color: #00bfff;
+  font-size: 22PX;
+  font-weight: bold;
+
+}
+
+.active {
+  border: 1px solid blue;
+  border-radius: 6px;
+  background-color: #abcdef;
+}
